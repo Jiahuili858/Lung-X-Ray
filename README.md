@@ -15,7 +15,7 @@ In the project folder, you have access to four folders. Each folder contains cou
 
 All the images for the training and test are of size 1024×1024 (please down-scale or up-scale to this size in case you observe a sample with a different size than this). I under- stand that 1024×1024 is a large dimensionality for the feature space, and you may explore dimensionality reduction techniques, or down-sampling methods to reduce the size of the images for your machine learning purposes. Note that if you just simply pass the raw data to a training module, it may take a long time to train the model, and might also limit the CPU/GPU access of the other classmates using the cluster. Please explore ideas which allow working with smaller feature sets.
 
-## Model Evaluation
+## Model Results
 * Training Accuracy: 96.5%
 * Training Loss: 0.115
 * Predictions were made on the testing files, which acchieved an accuracy of 87.97%.
